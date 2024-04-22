@@ -1,0 +1,140 @@
+<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>atomic-fns</title><meta name="description" content="Documentation for atomic-fns"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><script async src="assets/search.js" id="search-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
+<div class="tsd-toolbar-contents container">
+<div class="table-cell" id="tsd-search" data-base=".">
+<div class="field"><label for="tsd-search-field" class="tsd-widget tsd-toolbar-icon search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M15.7824 13.833L12.6666 10.7177C12.5259 10.5771 12.3353 10.499 12.1353 10.499H11.6259C12.4884 9.39596 13.001 8.00859 13.001 6.49937C13.001 2.90909 10.0914 0 6.50048 0C2.90959 0 0 2.90909 0 6.49937C0 10.0896 2.90959 12.9987 6.50048 12.9987C8.00996 12.9987 9.39756 12.4863 10.5008 11.6239V12.1332C10.5008 12.3332 10.5789 12.5238 10.7195 12.6644L13.8354 15.7797C14.1292 16.0734 14.6042 16.0734 14.8948 15.7797L15.7793 14.8954C16.0731 14.6017 16.0731 14.1267 15.7824 13.833ZM6.50048 10.499C4.29094 10.499 2.50018 8.71165 2.50018 6.49937C2.50018 4.29021 4.28781 2.49976 6.50048 2.49976C8.71001 2.49976 10.5008 4.28708 10.5008 6.49937C10.5008 8.70852 8.71314 10.499 6.50048 10.499Z" fill="var(--color-text)"></path></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div>
+<div class="field">
+<div id="tsd-toolbar-links"></div></div>
+<ul class="results">
+<li class="state loading">Preparing search index...</li>
+<li class="state failure">The search index is not available</li></ul><a href="index.html" class="title">atomic-fns</a></div>
+<div class="table-cell" id="tsd-widgets"><a href="#" class="tsd-widget tsd-toolbar-icon menu no-caption" data-toggle="menu" aria-label="Menu"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="3" width="14" height="2" fill="var(--color-text)"></rect><rect x="1" y="7" width="14" height="2" fill="var(--color-text)"></rect><rect x="1" y="11" width="14" height="2" fill="var(--color-text)"></rect></svg></a></div></div></header>
+<div class="container container-main">
+<div class="col-8 col-content">
+<div class="tsd-page-title">
+<h2>atomic-fns</h2></div>
+<div class="tsd-panel tsd-typography">
+<a href="#atomic-fns" id="atomic-fns" style="color: inherit; text-decoration: none;">
+  <h1>atomic-fns</h1>
+</a>
+<p><a href="https://atomic-fns.dev">Read the Docs</a></p>
+
+<a href="#like-lodash-but-in-typescript-and-for-esnext" id="like-lodash-but-in-typescript-and-for-esnext" style="color: inherit; text-decoration: none;">
+  <h2>Like Lodash, but in TypeScript and for ESNext.</h2>
+</a>
+<p>Stop shipping code built for browsers from 2015. Really though, look at all the <a href="https://github.com/lodash/lodash/issues/2930">issues</a>.</p>
+<p>You may prefer this because it&#39;s:</p>
+<ul>
+<li><strong>TypeScript &amp; docs</strong>: Includes type declaration files and js with JSDocs for best in class experience.</li>
+<li><strong>Zero deps</strong>: Built from scratch with no runtime dependencies or polyfills.</li>
+<li><strong>ESNext</strong>: Uses modern idiomatic syntax, data structures, and control flow techniques.</li>
+<li><strong>Modular</strong>: Pick what you need. Supports tree-shaking, no side effects, and works with all bundlers.</li>
+<li><strong>Lazy</strong>: Leverage generators, iterators, and functional composition.</li>
+<li><strong>Tests</strong>: All modules have comprehensive test suites and public apis are 100% covered.</li>
+</ul>
+
+<a href="#docs" id="docs" style="color: inherit; text-decoration: none;">
+  <h2>Docs</h2>
+</a>
+<p>📖 Available at <a href="https://atomic-fns.dev">atomic-fns.dev</a></p>
+
+<a href="#get-started" id="get-started" style="color: inherit; text-decoration: none;">
+  <h2>Get Started</h2>
+</a>
+<p>This library is available as an <a href="https://www.npmjs.com/package/atomic-fns">npm package</a>.</p>
+<p>To install the package you need to have <a href="https://www.npmjs.com/get-npm">npm</a> (or <a href="https://yarnpkg.com/getting-started/install">yarn</a>) installed and then run:</p>
+<pre><code class="language-bash"><span class="hl-0">npm install atomic-fns</span>
+</code></pre>
+
+<a href="#how-to-use" id="how-to-use" style="color: inherit; text-decoration: none;">
+  <h2>How to use</h2>
+</a>
+<p>Just import any function or class you need.</p>
+<pre><code class="language-js"><span class="hl-1">import</span><span class="hl-0"> { </span><span class="hl-2">sorted</span><span class="hl-0">, </span><span class="hl-2">times</span><span class="hl-0">, </span><span class="hl-2">uniqueId</span><span class="hl-0"> } </span><span class="hl-1">from</span><span class="hl-0"> </span><span class="hl-3">&#39;atomic-fns&#39;</span><br/><br/><span class="hl-4">times</span><span class="hl-0">(</span><span class="hl-5">5</span><span class="hl-0">, (</span><span class="hl-2">i</span><span class="hl-0">) </span><span class="hl-6">=&gt;</span><span class="hl-0"> </span><span class="hl-2">i</span><span class="hl-0">)</span><br/><span class="hl-7">// -&gt; [0, 1, 2, 3, 4]</span><br/><br/><span class="hl-4">sorted</span><span class="hl-0">([</span><span class="hl-5">4</span><span class="hl-0">, </span><span class="hl-5">3</span><span class="hl-0">, </span><span class="hl-5">2</span><span class="hl-0">, </span><span class="hl-5">1</span><span class="hl-0">])</span><br/><span class="hl-7">// -&gt; [1, 2, 3, 4]</span><br/><br/><span class="hl-4">uniqueId</span><span class="hl-0">(</span><span class="hl-3">&#39;user_&#39;</span><span class="hl-0">)</span><br/><span class="hl-7">// -&gt; &#39;user_101225005&#39;</span><br/><span class="hl-0">...</span>
+</code></pre>
+<p>See the full list of <a href="https://atomic-fns.dev/modules.html">modules</a>.</p>
+
+<a href="#data-model" id="data-model" style="color: inherit; text-decoration: none;">
+  <h2>Data model</h2>
+</a>
+<p>This library features a data model similar to <a href="https://docs.python.org/3/reference/datamodel.html#special-method-names">Python</a> but not always. Only the missing parts have been implemented, while respecting the JS standards.</p>
+<p>For example, in Python collections, <code>size()</code> is a method, while in JS it&#39;s just a property. So this library uses <code>size</code> property instead of method. Similarly, the <code>len</code> function implementation checks for both <code>length</code> and <code>size</code> since many JS objects have a <code>length</code> property.</p>
+
+<a href="#special-method-names" id="special-method-names" style="color: inherit; text-decoration: none;">
+  <h2>Special method names</h2>
+</a>
+<p>This library adds support for operators using object methods such as:</p>
+<ul>
+<li><code>obj.eq(other)</code>  adds custom <code>obj == other</code>.</li>
+<li><code>obj.lt(other)</code>  adds custom <code>obj &lt; other</code>.</li>
+<li><code>obj.lte(other)</code>  adds custom <code>obj &lt;= other</code>.</li>
+<li><code>obj.gt(other)</code>  adds custom <code>obj &gt; other</code>.</li>
+<li><code>obj.gte(other)</code>  adds custom <code>obj &gt;= other</code>.</li>
+<li><code>obj.compare(other)</code>  overloads sorting operations.</li>
+</ul>
+<p>When working with objects, functions in this library use these custom operators for equality and sorting. You can also apply operators to values like <code>eq(x, y)</code>, <code>lte(x, y)</code>, <code>compare(x, y)</code>, etc.</p>
+
+<a href="#new-types" id="new-types" style="color: inherit; text-decoration: none;">
+  <h2>New Types</h2>
+</a>
+<p><a href="https://atomic-fns.dev/classes/decimal.Decimal.html"><code>Decimal</code></a> provides support for correct rounded floating point arithmetic, with arbitrary precision.</p>
+<p>Some common base interfaces and typing patterns you may have seen like <code>Optional</code>, <code>Result</code>, <code>Comparable</code>, <code>Iterator</code>, and others.</p>
+
+<a href="#sorted-containers" id="sorted-containers" style="color: inherit; text-decoration: none;">
+  <h3>Sorted Containers</h3>
+</a>
+<ul>
+<li><a href="https://atomic-fns.dev/classes/collections.SortedSet.html">SortedSet</a></li>
+<li><a href="https://atomic-fns.dev/classes/collections.SortedMap.html">SortedMap</a></li>
+<li><a href="https://atomic-fns.dev/classes/collections.SortedTree.html">SortedTree</a></li>
+</ul>
+
+<a href="#other-containers" id="other-containers" style="color: inherit; text-decoration: none;">
+  <h3>Other Containers</h3>
+</a>
+<ul>
+<li><a href="https://atomic-fns.dev/classes/collections.Deque.html">Deque</a></li>
+<li><a href="https://atomic-fns.dev/classes/collections.FrozenSet.html">FrozenSet</a></li>
+<li><a href="https://atomic-fns.dev/classes/collections.LRUCache.html">LRUCache</a></li>
+</ul>
+
+<a href="#contributing" id="contributing" style="color: inherit; text-decoration: none;">
+  <h2>Contributing</h2>
+</a>
+<p>If you want to contribute to the project and make it better, your help is very welcome. Contributing is also a great way to learn more about social coding on Github, new technologies and and their ecosystems and how to make constructive, helpful bug reports, feature requests and the noblest of all contributions: a good, clean pull request. You will be listed as a <strong>Champion</strong> on the official site as well.</p>
+
+<a href="#license" id="license" style="color: inherit; text-decoration: none;">
+  <h2>License</h2>
+</a>
+<p><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></p>
+</div></div>
+<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+<div class="tsd-navigation settings">
+<details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
+<h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4.93896 8.531L12 15.591L19.061 8.531L16.939 6.409L12 11.349L7.06098 6.409L4.93896 8.531Z" fill="var(--color-text)"></path></svg> Settings</h3></summary>
+<div class="tsd-accordion-details">
+<div class="tsd-filter-visibility">
+<h4 class="uppercase">Member Visibility</h4><form>
+<ul id="tsd-filter-options">
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-protected" name="protected"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Protected</span></label></li>
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-inherited" name="inherited" checked/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Inherited</span></label></li></ul></form></div>
+<div class="tsd-theme-toggle">
+<h4 class="uppercase">Theme</h4><select id="theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div></details></div>
+<nav class="tsd-navigation primary">
+<details class="tsd-index-accordion" open><summary class="tsd-accordion-summary">
+<h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4.93896 8.531L12 15.591L19.061 8.531L16.939 6.409L12 11.349L7.06098 6.409L4.93896 8.531Z" fill="var(--color-text)"></path></svg> Modules</h3></summary>
+<div class="tsd-accordion-details">
+<ul>
+<li class="current selected"><a href="modules.html">atomic-<wbr/>fns</a>
+<ul>
+<li class="tsd-kind-module"><a href="modules/collections.html">collections</a></li>
+<li class="tsd-kind-module"><a href="modules/decimal.html">decimal</a></li>
+<li class="tsd-kind-module"><a href="modules/functools.html">functools</a></li>
+<li class="tsd-kind-module"><a href="modules/globals.html">globals</a></li>
+<li class="tsd-kind-module"><a href="modules/i18n.html">i18n</a></li>
+<li class="tsd-kind-module"><a href="modules/itertools.html">itertools</a></li>
+<li class="tsd-kind-module"><a href="modules/math.html">math</a></li>
+<li class="tsd-kind-module"><a href="modules/operators.html">operators</a></li>
+<li class="tsd-kind-module"><a href="modules/random.html">random</a></li></ul></li></ul></div></details></nav></div></div>
+<div class="container tsd-generator">
+<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></div>
+<div class="overlay"></div><script src="assets/main.js"></script></body></html>
